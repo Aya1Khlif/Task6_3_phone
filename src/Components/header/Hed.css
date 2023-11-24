@@ -1,0 +1,55 @@
+
+.text-logo{
+  background-image: url(./../../assets/img/bg-1.png);
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-clip: text  !important;
+  color: transparent !important;
+  font-size: 25px !important;
+}
+
+.inner-dropdown{
+  display: flex;
+}
+
+
+
+.inner-dropdown .innerimg img{
+  width: 10em ;
+}
+
+.me-auto{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.me-auto a{
+  text-decoration: none;
+  color: black;
+}
+
+.ak-home a{
+  color: red;
+  font-weight: 800;
+}
+
+.me-auto a:hover{
+  color: red;
+}
+.flag img{
+  width: 1em;
+  height: 1em;
+}
+
+.basic{
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+@media (min-width:576px){
+  .dropdown:hover > .dropdown-menu{
+      display: block;
+      margin-top: 0;
+  
+  } 
+}
